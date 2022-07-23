@@ -1,0 +1,31 @@
+{
+    "News Section Configuration": {
+
+        "APIkey": "8eb0811e2ad440c6b3cbda083ccd7f46"
+
+    },
+
+    "Covid Data Configuration": {
+
+        "Location": "Exeter",
+        "Location Type": "ltla",
+        "Nation": "England",
+
+        "Output Format": {
+            "date": "date",
+            "areaName": "areaName",
+            "areaCode": "areaCode",
+            "newCasesByPublishDate": "newCasesByPublishDate",
+            "cumCasesByPublishDate": "cumCasesByPublishDate",
+            "newDeaths28DaysByDeathDate": "newDeaths28DaysByDeathDate",
+            "cumDeaths28DaysByDeathDate": "cumDeaths28DaysByDeathDate",
+            "hospitalCases": "hospitalCases"
+        }
+
+    },
+
+    "Image": {
+            "imagePath":"COVID 19.png"
+        }
+
+}
