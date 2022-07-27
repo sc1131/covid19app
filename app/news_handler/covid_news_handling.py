@@ -17,6 +17,10 @@ with open(os.path.join("app/config/", "config.json"), "r", encoding="utf-8") as 
 
 
 def news_API_request(covid_terms="Covid COVID-19 coronavirus"):
+    """Finds all results pertaining to Covid-19 ("Covid" "Covid 19" or coronavirus" ) from News API. "Covid" "Covid
+    19" or coronavirus" arguments are passed by default. Note: News API no longer works in the United Kingdom and can
+    therefore only be used through a VPN to function properly. Returns API response in Json format. """
+
     words = covid_terms.split(" ")
     search_query = ' OR '.join(words)
 
@@ -32,20 +36,25 @@ def news_API_request(covid_terms="Covid COVID-19 coronavirus"):
 
     response = requests.get(url).json()
 
-    # Return the API response in json format
+
 
     # newsapi = NewsApiClient(api_key='8eb0811e2ad440c6b3cbda083ccd7f46')
     # data_handler = newsapi.get_everything(q=search_query, language='en', page_size=20)
     # return data_handler
+
     return response
 
 
 def global_news_API_request():
+    """Stores data returned by news_API_request() in global variable, which can in turn be used in
+        updates_news1 function """
     global info
     info = news_API_request()
 
 
 def update_news():
+    """Uses the news_API_request function to update a data structure containing news articles. Checks that
+    articles deleted by user are not included in the update. Returns dictionary of articles."""
     data = news_API_request()
     news_articles = data['articles']
     # Need to check for any deleted items and prevent them from being reloaded
@@ -55,10 +64,10 @@ def update_news():
     return news_articles
 
 
-update_news()
 
-
-def update_news1(update_name, update_interval):
+def update_news1(update_interval, update_name):
+    """Returns news data structure after specified period of time. Arguments include update interval in seconds and
+        update name respectively"""
     timer = sched.scheduler(time.time, time.sleep)
     timer.enter(float(update_interval), 1, global_news_API_request, )
     timer.run()

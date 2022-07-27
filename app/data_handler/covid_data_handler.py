@@ -13,6 +13,7 @@ with open("app/config/config.json", "r", encoding="utf-8") as config_file:
 
 
 def parse_csv_data(csv_filename):
+    """Store data in csv file, line by line, in list"""
     file = open(csv_filename)
     # Store File info in list called Record
     record = []
@@ -23,10 +24,11 @@ def parse_csv_data(csv_filename):
     return record
 
 
-covid_csv_data = parse_csv_data("app/news_handler/nation_2021-10-28.csv")
+covid_csv_data = parse_csv_data("app/data_handler/nation_2021-10-28.csv")
 
 
 def process_covid_csv_data(covid_csv_data):
+    """Finds current hospital cases, total deaths and cases in last seven days."""
     current_hospital_cases = 0
     total_deaths = 0
     last7days_cases = 0
@@ -73,6 +75,8 @@ process_covid_csv_data(covid_csv_data);
 
 
 def covid_API_request(location="Exeter", location_type="ltla"):
+    """Returns Json of Covid Information based on location and location type passed as arguments. Default
+    arguments are location: "Exeter", location type:"ltla". See config file to change returned information """
     locale = [
         'areaName=' + location, 'areaType=' + location_type
 
@@ -87,11 +91,15 @@ def covid_API_request(location="Exeter", location_type="ltla"):
 
 # Create function with global variable, data_handler to provide updated info
 def global_api_request():
+    """Stores data returned by covid_API_request() in global variable, which can in turn be used in
+    schedule_covid_updates function """
     global data
     data = covid_API_request()
 
 
 def schedule_covid_updates(update_interval, update_name):
+    """Returns covid information after specified period of time. Arguments include update interval in seconds and
+    update name respectively"""
     timer = sched.scheduler(time.time, time.sleep)
     timer.enter(update_interval, 1, global_api_request, )
     timer.run()

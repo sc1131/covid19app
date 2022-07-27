@@ -31,6 +31,8 @@ class CovidApp:
         self.scheduler.start()
 
     def process_update(self, label_box, repeat_box, covid_data_box, news_box, datetime_object):
+        """Updates dashboard in accordance with which checkboxes have been ticked: includes news, Covid-19 info,
+        repeat, scheduled updates by time. Used when scheduling updates"""
         if covid_data_box is not None:
             self.local_covid_data_update()
             self.national_covid_data_update()
@@ -50,9 +52,11 @@ class CovidApp:
             self.scheduler.add_job(func=self.process_update, args=(label_box, repeat_box, covid_data_box, news_box),
                                    trigger="date",
                                    run_date=tomorrow)
-            logging.debug("Schedule reminder for speicified time")
+            logging.debug("Schedule reminder for specified time")
 
     def __covid_data_update(self, mode):
+        """'Updates Covid info, locally or nationally based on mode parameter. Provides data for number of infections
+        in last seven days. Stores data in fields: 'local_7day_infections' or 'national_7day_infections' """
         covid_info = None
         try:
             if mode == 'Local':
@@ -76,12 +80,15 @@ class CovidApp:
             self.national_7day_infections = infections
 
     def local_covid_data_update(self):
+        """Updates local Covid info and stores it in 'local_7day_infections' """
         self.__covid_data_update('Local')
 
     def national_covid_data_update(self):
+        """Updates local Covid info and stores it in 'national_7day_infections' """
         self.__covid_data_update('National')
 
     def news_update(self):
+        """Updates news and stores in "news_articles" field. """
         try:
             self.news_articles = update_news()
             logging.debug("News articles updated")
@@ -89,6 +96,7 @@ class CovidApp:
             logging.critical("Unable to reach News API")
 
     def start_app(self):
+        """Run server and load dashboard. """
         app = Flask(__name__)
         app.config['SERVER_NAME'] = '127.0.0.1:5000'
 
@@ -110,6 +118,7 @@ class CovidApp:
 
         @app.route('/update', methods=['POST', 'GET'])
         def update():
+            """Returns dashboard with updated information specified by the user on local server."""
 
             data = request.get_json()
             self.updates = data['updates']
@@ -187,6 +196,7 @@ class CovidApp:
                                    local_7day_infections=self.local_7day_infections,
                                    nation_location=self.nation_location,
                                    national_7day_infections=self.national_7day_infections)
+
 
         app.run(host="127.0.0.1", port=5000, debug=True)
 
