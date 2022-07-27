@@ -1,10 +1,9 @@
 # Covid Dashboard
 
-Covid Dashboard implements a simple personalised covid dashboard.
-dashboard application, which co-ordinates information about the COVID infection rates from the 
+Covid Dashboard implements a simple personalised covid dashboard, which co-ordinates information about the COVID infection rates from the 
 [_Public Health England API_](https://publichealthengland.github.io/coronavirus-dashboard-api-python-sdk/) and news 
 stories about Covid from [_News API_](https://newsapi.org/). 
-The dashboard runs continuously and responds to events, including Covid and news updates, triggered by user inputs.
+The application runs continuously and responds to events, including Covid and news updates, triggered by user inputs.
 The program also includes News and Data handling modules to deal with information pertaining to Covid-19. 
 
 ## Installation Guide
@@ -24,7 +23,7 @@ pip install newsapi-python
 ```
 
 Important Disclaimer: [_News API_](https://newsapi.org/) no longer works in the UK. Therefore a VPN must be used in 
-order for the program to function. 
+order for the application to function. 
 
 
 

@@ -5282,3 +5282,13 @@ ValueError: The following arguments have not been supplied: datetime_object
 25-Jul-22 18:34:18 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
 25-Jul-22 18:34:18 - werkzeug - WARNING -  * Debugger is active!
 25-Jul-22 18:34:18 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+27-Jul-22 16:29:17 - apscheduler.scheduler - INFO - Scheduler started
+27-Jul-22 16:29:17 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+27-Jul-22 16:29:17 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+27-Jul-22 16:29:17 - werkzeug - INFO -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+27-Jul-22 16:29:17 - werkzeug - INFO -  * Restarting with stat
+27-Jul-22 16:29:17 - apscheduler.scheduler - INFO - Scheduler started
+27-Jul-22 16:29:17 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+27-Jul-22 16:29:17 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+27-Jul-22 16:29:17 - werkzeug - WARNING -  * Debugger is active!
+27-Jul-22 16:29:17 - werkzeug - INFO -  * Debugger PIN: 910-721-058
