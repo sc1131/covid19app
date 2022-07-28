@@ -5552,3 +5552,11 @@ ValueError: The following arguments have not been supplied: datetime_object
 28-Jul-22 14:26:18 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:26:18] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
 28-Jul-22 14:27:20 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:27:20] "GET /index HTTP/1.1" 200 -
 28-Jul-22 14:27:20 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:27:20] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 14:28:22 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:28:22] "GET /index HTTP/1.1" 200 -
+28-Jul-22 14:28:22 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:28:22] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 14:29:22 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:29:22] "GET /index HTTP/1.1" 200 -
+28-Jul-22 14:29:22 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:29:22] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 14:30:24 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:30:24] "GET /index HTTP/1.1" 200 -
+28-Jul-22 14:30:24 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:30:24] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 14:31:26 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:31:26] "GET /index HTTP/1.1" 200 -
+28-Jul-22 14:31:26 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 14:31:26] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
