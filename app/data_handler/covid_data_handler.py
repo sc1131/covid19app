@@ -1,10 +1,13 @@
+import os
+
 from uk_covid19 import Cov19API
 import json
 import sched
 import time
+from app.defintions import ROOT_DIR
 
 # Change to .. to get config file working here and change back to app for main to run
-with open("app/config/config.json", "r", encoding="utf-8") as config_file:
+with open(os.path.join(ROOT_DIR,"config/config.json"), "r", encoding="utf-8") as config_file:
     # Open the configuration file and retrieve relevant settings
     CONFIG_DATA = json.load(config_file)
     COVID_DATA_FILTERS = [f'areaType={CONFIG_DATA["Covid Data Configuration"]["Location Type"]}',
@@ -24,7 +27,7 @@ def parse_csv_data(csv_filename):
     return record
 
 
-covid_csv_data = parse_csv_data("app/data_handler/nation_2021-10-28.csv")
+covid_csv_data = parse_csv_data(os.path.join(ROOT_DIR,"data_handler/nation_2021-10-28.csv"))
 
 
 def process_covid_csv_data(covid_csv_data):

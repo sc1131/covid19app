@@ -5292,3 +5292,103 @@ ValueError: The following arguments have not been supplied: datetime_object
 27-Jul-22 16:29:17 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
 27-Jul-22 16:29:17 - werkzeug - WARNING -  * Debugger is active!
 27-Jul-22 16:29:17 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+28-Jul-22 12:56:28 - apscheduler.scheduler - INFO - Scheduler started
+28-Jul-22 12:56:28 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+28-Jul-22 12:56:28 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+28-Jul-22 12:56:28 - werkzeug - INFO -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+28-Jul-22 12:56:28 - werkzeug - INFO -  * Restarting with stat
+28-Jul-22 12:56:28 - apscheduler.scheduler - INFO - Scheduler started
+28-Jul-22 12:56:28 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+28-Jul-22 12:56:28 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+28-Jul-22 12:56:28 - werkzeug - WARNING -  * Debugger is active!
+28-Jul-22 12:56:28 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+28-Jul-22 12:56:38 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 12:56:38 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+28-Jul-22 12:56:38 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 12:56:38 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+28-Jul-22 12:56:38 - root - DEBUG - Local Covid data updated
+28-Jul-22 12:56:38 - root - DEBUG - Local 7 day infections updated
+28-Jul-22 12:56:38 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 12:56:39 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+28-Jul-22 12:56:39 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 12:56:39 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+28-Jul-22 12:56:39 - root - DEBUG - National Covid data updated
+28-Jul-22 12:56:39 - root - DEBUG - National 7 day infections updated
+28-Jul-22 12:56:39 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): newsapi.org:443
+28-Jul-22 12:56:39 - urllib3.connectionpool - DEBUG - https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid%20OR%20COVID-19%20OR%20coronavirus&from=2022-07-26%2012:56:39.571437&sortBy=popularity&language=en&apiKey=8eb0811e2ad440c6b3cbda083ccd7f46 HTTP/1.1" 200 None
+28-Jul-22 12:56:39 - root - DEBUG - News articles updated
+28-Jul-22 12:56:40 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:56:40] "GET / HTTP/1.1" 200 -
+28-Jul-22 12:56:40 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:56:40] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 12:56:40 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:56:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+28-Jul-22 12:57:40 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:57:40] "GET /index HTTP/1.1" 200 -
+28-Jul-22 12:57:40 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:57:40] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 12:58:41 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:58:41] "GET /index HTTP/1.1" 200 -
+28-Jul-22 12:58:42 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:58:42] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 12:59:44 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:59:44] "GET /index HTTP/1.1" 200 -
+28-Jul-22 12:59:44 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 12:59:44] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:00:44 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:00:44] "GET /index HTTP/1.1" 200 -
+28-Jul-22 13:00:44 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:00:44] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:00:58 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:00:58] "GET /index HTTP/1.1" 200 -
+28-Jul-22 13:00:58 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:00:58] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:02 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:02] "GET /index HTTP/1.1" 200 -
+28-Jul-22 13:01:02 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:02] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:05 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:05] "[35m[1mGET /index?notif= HTTP/1.1[0m" 500 -
+28-Jul-22 13:01:05 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:05 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:05 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:05 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:05] "[36mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:10 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:12 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+28-Jul-22 13:01:12 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:13 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+28-Jul-22 13:01:13 - root - DEBUG - Local Covid data updated
+28-Jul-22 13:01:13 - root - DEBUG - Local 7 day infections updated
+28-Jul-22 13:01:13 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:14 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+28-Jul-22 13:01:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:16 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+28-Jul-22 13:01:16 - root - DEBUG - National Covid data updated
+28-Jul-22 13:01:16 - root - DEBUG - National 7 day infections updated
+28-Jul-22 13:01:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): newsapi.org:443
+28-Jul-22 13:01:16 - urllib3.connectionpool - DEBUG - https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid%20OR%20COVID-19%20OR%20coronavirus&from=2022-07-26%2013:01:16.133312&sortBy=popularity&language=en&apiKey=8eb0811e2ad440c6b3cbda083ccd7f46 HTTP/1.1" 200 None
+28-Jul-22 13:01:17 - root - DEBUG - News articles updated
+28-Jul-22 13:01:17 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:17] "GET / HTTP/1.1" 200 -
+28-Jul-22 13:01:17 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:17] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:21 - root - DEBUG - Article removed
+28-Jul-22 13:01:21 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:21] "GET /index?notif=What+to+Do+If+You+Have+COVID+Symptoms+but+Your+At-Home+Test+Is+Negative HTTP/1.1" 200 -
+28-Jul-22 13:01:21 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:21] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:21 - root - DEBUG - Article removed
+28-Jul-22 13:01:21 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:21] "GET /index?notif=Wuhan+Enters+Another+Lockdown+as+Rest+of+World+Pretends+Covid-19+Pandemic+Is+Over HTTP/1.1" 200 -
+28-Jul-22 13:01:21 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:21] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:22 - root - DEBUG - Article removed
+28-Jul-22 13:01:22 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:22] "GET /index?notif=Madhya+Pradesh+Covid-19%3A+Thirty+India+students+vaccinated+with+one+syringe HTTP/1.1" 200 -
+28-Jul-22 13:01:22 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:22] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:23 - root - DEBUG - Article removed
+28-Jul-22 13:01:23 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:23] "GET /index?notif=New+studies+agree+that+animals+sold+at+Wuhan+market+are+most+likely+what+started+Covid-19+pandemic HTTP/1.1" 200 -
+28-Jul-22 13:01:23 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:23] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:28 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:30 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+28-Jul-22 13:01:30 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:31 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+28-Jul-22 13:01:31 - root - DEBUG - Local Covid data updated
+28-Jul-22 13:01:31 - root - DEBUG - Local 7 day infections updated
+28-Jul-22 13:01:31 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:32 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=1 HTTP/1.1" 200 None
+28-Jul-22 13:01:32 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+28-Jul-22 13:01:33 - urllib3.connectionpool - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DEngland%3BareaType%3Dnation&structure=%7B%22date%22%3A%22date%22%2C%22areaName%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22cumCasesByPublishDate%22%3A%22cumCasesByPublishDate%22%2C%22newDeaths28DaysByDeathDate%22%3A%22newDeaths28DaysByDeathDate%22%2C%22cumDeaths28DaysByDeathDate%22%3A%22cumDeaths28DaysByDeathDate%22%2C%22hospitalCases%22%3A%22hospitalCases%22%7D&format=json&page=2 HTTP/1.1" 204 0
+28-Jul-22 13:01:33 - root - DEBUG - National Covid data updated
+28-Jul-22 13:01:33 - root - DEBUG - National 7 day infections updated
+28-Jul-22 13:01:33 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): newsapi.org:443
+28-Jul-22 13:01:34 - urllib3.connectionpool - DEBUG - https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid%20OR%20COVID-19%20OR%20coronavirus&from=2022-07-26%2013:01:33.617237&sortBy=popularity&language=en&apiKey=8eb0811e2ad440c6b3cbda083ccd7f46 HTTP/1.1" 200 None
+28-Jul-22 13:01:34 - root - DEBUG - News articles updated
+28-Jul-22 13:01:34 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:34] "GET /index?update=&two=vjslfjaf&covid-data=covid-data&news=news HTTP/1.1" 200 -
+28-Jul-22 13:01:34 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:34] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:01:40 - root - DEBUG - Add update label and time to update tab
+28-Jul-22 13:01:40 - apscheduler.scheduler - INFO - Added job "CovidApp.process_update" to job store "default"
+28-Jul-22 13:01:40 - root - DEBUG - Schedule update for specified time
+28-Jul-22 13:01:40 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+28-Jul-22 13:01:40 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:40] "GET /index?update=19%3A19&two=sajljfdf&covid-data=covid-data&news=news HTTP/1.1" 200 -
+28-Jul-22 13:01:40 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2022-07-28 19:19:00+01:00 (in 22639.792058 seconds)
+28-Jul-22 13:01:40 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2022 13:01:40] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+28-Jul-22 13:09:26 - werkzeug - INFO -  * Detected change in '/Users/samcooklin/PycharmProjects/pythonProject9/app/news_handler/covid_news_handling.py', reloading
+28-Jul-22 13:09:26 - werkzeug - INFO -  * Restarting with stat

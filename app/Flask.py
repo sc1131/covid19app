@@ -6,12 +6,13 @@ from app.data_handler.covid_data_handler import covid_API_request
 from datetime import datetime, date, timedelta
 from app.news_handler.covid_news_handling import update_news
 from apscheduler.schedulers.background import BackgroundScheduler
+from app.defintions import ROOT_DIR
 
 
 class CovidApp:
     """This is a class called Covid App which manages all the essential functions of the dashboard"""
     def __init__(self):
-        with open("app/config/config.json", "r", encoding="utf-8") as config_file:
+        with open(os.path.join(ROOT_DIR,"config/config.json"), "r", encoding="utf-8") as config_file:
             config_data = json.load(config_file)
             self.image = config_data['Image']['imagePath']
         logging.basicConfig(level=logging.DEBUG,

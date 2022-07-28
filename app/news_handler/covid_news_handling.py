@@ -7,10 +7,12 @@ from newsapi import NewsApiClient
 import json
 import os
 
+from app.defintions import ROOT_DIR
+
 news_articles = []
 deleted_news = []
 
-with open(os.path.join("app/config/", "config.json"), "r", encoding="utf-8") as config_file:
+with open(os.path.join(ROOT_DIR,"config/", "config.json"), "r", encoding="utf-8") as config_file:
     # Open the configuration file and retrieve relevant settings
     CONFIG_NEWS = json.load(config_file)
     API_KEY = CONFIG_NEWS["News Section Configuration"]["APIkey"]
