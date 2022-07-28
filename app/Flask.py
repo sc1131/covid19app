@@ -1,6 +1,8 @@
 import json
 import logging
 import os
+import sys
+
 from flask import Flask, render_template, request
 from app.data_handler.covid_data_handler import covid_API_request
 from datetime import datetime, date, timedelta
@@ -11,15 +13,17 @@ from app.defintions import ROOT_DIR
 
 class CovidApp:
     """This is a class called Covid App which manages all the essential functions of the dashboard"""
+
     def __init__(self):
-        with open(os.path.join(ROOT_DIR,"config/config.json"), "r", encoding="utf-8") as config_file:
+        with open(os.path.join(ROOT_DIR, "config/config.json"), "r", encoding="utf-8") as config_file:
             config_data = json.load(config_file)
             self.image = config_data['Image']['imagePath']
         logging.basicConfig(level=logging.DEBUG,
-                            filename=os.path.join("app/logs/", "app.log"),
+                            filename=os.path.join(ROOT_DIR,"logs/", "app.log"),
                             filemode="a",
                             format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
                             datefmt="%d-%b-%y %H:%M:%S")
+        logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
         self.updates = []
         self.news_articles = []
         self.deleted_articles = []
@@ -200,5 +204,4 @@ class CovidApp:
 
 
         app.run(host="127.0.0.1", port=5000, debug=True)
-
 
