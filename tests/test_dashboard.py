@@ -1,7 +1,7 @@
 from datetime import datetime
 
 import pytest
-from app.Flask import CovidApp
+from app.dashboard import CovidApp
 
 
 app = CovidApp()

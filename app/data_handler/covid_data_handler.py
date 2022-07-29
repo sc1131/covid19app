@@ -6,7 +6,6 @@ import sched
 import time
 from app.defintions import ROOT_DIR
 
-# Change to .. to get config file working here and change back to app for main to run
 with open(os.path.join(ROOT_DIR,"config/config.json"), "r", encoding="utf-8") as config_file:
     # Open the configuration file and retrieve relevant settings
     CONFIG_DATA = json.load(config_file)

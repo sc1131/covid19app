@@ -1,5 +1,5 @@
-from app import Flask
+from app import dashboard
 
 # Runs dashboard on local server
-covid = Flask.CovidApp()
+covid = dashboard.CovidApp()
 covid.start_app()

@@ -39,7 +39,7 @@ def test_covid_API_request():
     assert isinstance(data, dict)
 
 
-# Test passed
+
 def test_schedule_covid_updates():
     schedule_covid_updates(update_interval=10, update_name='update test')
 

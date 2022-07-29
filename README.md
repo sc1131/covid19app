@@ -39,8 +39,12 @@ To run the Covid Dashboard itself,  execute the `main.py` file in the project di
 
 Run automated unit tests by executing `tests` in the project directory.
 
+Alternatively, simply run `pytest` in the terminal.
+
 Within `tests`, the news, data and dashboard modules can each be tested by running `test_covid_data_handler.py`, 
 `test_news_data_handling.py` and `test_dashboard.py `respectively.
+
+
 
 ## Contributions
 
