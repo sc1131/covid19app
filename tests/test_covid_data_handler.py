@@ -34,9 +34,12 @@ def test_process_covid_csv_data():
 
 # Test passed; return type is a dictionary
 def test_covid_API_request():
-    """Checks that covid_API_request returns a dictionary"""
+    """Checks that covid_API_request returns a dictionary and checks json file can be navigated
+    through properly"""
     data = covid_API_request()
     assert isinstance(data, dict)
+    assert "data" in data
+    assert len(data['data']) > 0
 
 
 

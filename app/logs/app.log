@@ -5660,3 +5660,114 @@ ValueError: The following arguments have not been supplied: datetime_object
 29-Jul-22 11:39:24 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:39:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 29-Jul-22 11:40:26 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:40:26] "GET /index HTTP/1.1" 200 -
 29-Jul-22 11:40:26 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:40:26] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:41:26 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:41:26] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:41:26 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:41:26] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:42:28 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:42:28] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:42:28 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:42:28] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:43:29 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:43:29] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:43:29 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:43:29] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:44:30 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:44:30] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:44:30 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:44:30] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:44:33 - werkzeug - INFO -  * Detected change in '/Users/samcooklin/PycharmProjects/pythonProject9/app/data_handler/covid_data_handler.py', reloading
+29-Jul-22 11:44:33 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 11:44:38 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 11:44:38 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 11:44:38 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 11:44:38 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 11:44:38 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+29-Jul-22 11:45:31 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:45:31] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:45:31 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:45:31] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:46:33 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:46:33] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:46:33 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:46:33] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:47:37 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:47:37] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:47:37 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:47:37] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:48:41 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:48:41] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:48:41 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:48:41] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:49:42 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:49:42] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:49:42 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:49:42] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:50:42 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:50:42] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:50:42 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:50:42] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:51:46 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:51:46] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:51:46 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:51:46] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:52:50 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:52:50] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:52:50 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:52:50] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:53:54 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:53:54] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:53:54 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:53:54] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:54:52 - werkzeug - INFO -  * Detected change in '/Users/samcooklin/PycharmProjects/pythonProject9/tests/test_covid_data_handler.py', reloading
+29-Jul-22 11:54:52 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 11:54:55 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 11:54:55 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 11:54:55 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 11:54:55 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 11:54:55 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+29-Jul-22 11:54:57 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:54:57] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:54:57 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:54:57] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:56:01 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:56:01] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:56:01 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:56:01] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:57:05 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:57:05] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:57:05 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:57:05] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:58:09 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:58:09] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:58:09 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:58:09] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 11:59:13 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:59:13] "GET /index HTTP/1.1" 200 -
+29-Jul-22 11:59:13 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 11:59:13] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 12:00:17 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 12:00:17] "GET /index HTTP/1.1" 200 -
+29-Jul-22 12:00:17 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 12:00:17] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 12:01:21 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 12:01:21] "GET /index HTTP/1.1" 200 -
+29-Jul-22 12:01:21 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2022 12:01:21] "[36mGET /static/images/COVID%2019.png HTTP/1.1[0m" 304 -
+29-Jul-22 12:02:22 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:02:22 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:02:22 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:02:22 - werkzeug - INFO -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+29-Jul-22 12:02:22 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 12:02:24 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:02:24 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:02:24 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:02:24 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 12:02:24 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+29-Jul-22 12:02:40 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:02:40 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:02:40 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:02:40 - werkzeug - INFO -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+29-Jul-22 12:02:40 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 12:02:42 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:02:42 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:02:42 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:02:42 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 12:02:42 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+29-Jul-22 12:03:21 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:03:21 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:03:21 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:03:21 - werkzeug - INFO -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+29-Jul-22 12:03:21 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 12:03:23 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:03:23 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:03:23 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:03:23 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 12:03:23 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+29-Jul-22 12:04:19 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:04:19 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:04:19 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:04:19 - werkzeug - INFO -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+29-Jul-22 12:04:19 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 12:04:19 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:04:19 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:04:19 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:04:19 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 12:04:19 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+29-Jul-22 12:05:19 - werkzeug - INFO -  * Detected change in '/Users/samcooklin/PycharmProjects/pythonProject9/app/data_handler/covid_data_handler.py', reloading
+29-Jul-22 12:05:19 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 12:05:19 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:05:19 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:05:19 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:05:19 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 12:05:19 - werkzeug - INFO -  * Debugger PIN: 910-721-058
+29-Jul-22 12:11:25 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:11:25 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:11:25 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:11:25 - werkzeug - INFO -  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+29-Jul-22 12:11:25 - werkzeug - INFO -  * Restarting with stat
+29-Jul-22 12:11:25 - apscheduler.scheduler - INFO - Scheduler started
+29-Jul-22 12:11:25 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+29-Jul-22 12:11:25 - apscheduler.scheduler - DEBUG - No jobs; waiting until a job is added
+29-Jul-22 12:11:25 - werkzeug - WARNING -  * Debugger is active!
+29-Jul-22 12:11:25 - werkzeug - INFO -  * Debugger PIN: 910-721-058
